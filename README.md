@@ -32,7 +32,9 @@ Preencha os parâmetros do arquivo ".env" usando como base o ".env-example"
 - `yarn add express`
 - `yarn add @types/express`
 
-#### Instalar sqlite
+#### Instalar banco de dados
+Banco de dados postgres
+- `yarn add pg`
 Banco de dados para os testes da aplicação
 - `yarn add sqlite3 -D`
 
@@ -47,5 +49,5 @@ Banco de dados para os testes da aplicação
 
 https://auth0.com/blog/node-js-and-typescript-tutorial-build-a-crud-api/
 
-#### Nova migration
+#### Criar migration
 `yarn typeorm migration:create -n CreateUsers`
