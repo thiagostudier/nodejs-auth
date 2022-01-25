@@ -1,4 +1,4 @@
-# nodejs-auth
+# Autenticação com Nodejs
 Crud de usuários com autenticação e testes - Node.js
 
 ## Comandos 
